@@ -27,7 +27,6 @@ AuthenticateContainer.propTypes = {
 };
 
 const mapStateToProps = state => {
-  console.log(state);
   return {
     isFetching: state.isFetching,
     error: state.error,
