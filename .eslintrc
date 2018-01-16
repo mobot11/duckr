@@ -13,7 +13,8 @@
     }
   },
   "plugins": [
-    "react"
+    "react",
+    "babel"
   ],
   "extends": ["eslint:recommended", "plugin:react/recommended", "standard"],
   "rules": {
@@ -30,6 +31,7 @@
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
     "indent": 0,
-    "space-before-function-paren": 0
+    "space-before-function-paren": 0,
+    "no-multi-spaces": 0
   }
 }

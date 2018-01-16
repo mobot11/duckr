@@ -25,7 +25,7 @@ const productionPlugin = new webpack.DefinePlugin({
 });
 
 const base = {
-  entry: [PATHS.app],
+  entry: ['babel-polyfill', PATHS.app],
   output: {
     path: PATHS.build,
     filename: 'index_bundle.js',
